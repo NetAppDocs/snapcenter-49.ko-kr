@@ -8710,4 +8710,8 @@ AD FS SSO 페이지에서 사용자 이름 텍스트 상자에 사용자 이름 
   <block id="66533c4e3134a6b220ad1336cd288c49" category="sidebar">역할 기반 액세스 제어(RBAC) 구성</block>
   <block id="5d4caff07857398d579cdda92ce3f34f" category="sidebar">스토리지 시스템을 프로비저닝합니다</block>
   <block id="0daccd45abdac281e7508c5de0fa492c" category="sidebar">Windows 호스트에서 스토리지 용량 할당</block>
+  <block id="4db35e04fa48549bd85b1a6d4d43fb09" category="list-text">SnapCenter 4.9 P1 이상은 AWS(Amazon Web Services) 기반 VMware Cloud 환경에서 Oracle 및 Microsoft SQL 워크로드 보호를 지원합니다.</block>
+  <block id="38012dbc6542f17135111019d1839fa1" category="inline-link">AWS SDDC 환경의 VMware Cloud에서 NetApp SnapCenter를 사용하여 Oracle, MS SQL 워크로드를 보호하십시오</block>
+  <block id="0ed5dc7c29240e260dcaa51a555687fb" category="paragraph">자세한 내용은 을 참조하십시오
+<block ref="201ce3916702c203a3d45750d51a4039" category="inline-link-rx"></block>.</block>
 </blocks>
