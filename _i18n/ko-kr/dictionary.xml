@@ -5319,7 +5319,6 @@ SLM에 대한 자세한 내용은 을 참조하십시오<block ref="cb74c6abbb61
   <block id="6347721d31864738b0e7a03f5553e69b" category="section-title">AIX 호스트 요구 사항</block>
   <block id="fed30036a3caffc826b4e66f434f67ea" category="paragraph">AIX용 SnapCenter 플러그인 패키지를 설치하기 전에 호스트가 요구 사항을 충족하는지 확인해야 합니다.</block>
   <block id="cddfaa01c32e2362546c78364751248b" category="admonition">AIX용 SnapCenter 플러그인 패키지의 일부인 UNIX용 SnapCenter 플러그인은 동시 볼륨 그룹을 지원하지 않습니다.</block>
-  <block id="895327977020e495debf0b375c7541d8" category="paragraph">AIX 6.1 이상</block>
   <block id="974c2262615af73433567515efbb80e9" category="paragraph">4GB</block>
   <block id="5dcb853141d33f26c1df2f75da07200a" category="list-text">Java 1.8.x(64비트) IBM Java</block>
   <block id="3fe85b9e16f08cb63e5aaa5c215097d7" category="list-text">Java 11(64비트) IBM Java</block>
@@ -8714,4 +8713,5 @@ AD FS SSO 페이지에서 사용자 이름 텍스트 상자에 사용자 이름 
   <block id="38012dbc6542f17135111019d1839fa1" category="inline-link">AWS SDDC 환경의 VMware Cloud에서 NetApp SnapCenter를 사용하여 Oracle, MS SQL 워크로드를 보호하십시오</block>
   <block id="0ed5dc7c29240e260dcaa51a555687fb" category="paragraph">자세한 내용은 을 참조하십시오
 <block ref="201ce3916702c203a3d45750d51a4039" category="inline-link-rx"></block>.</block>
+  <block id="ad569cc1cca820033bb20ffe1d5bc4a5" category="paragraph">AIX 7.1 이상</block>
 </blocks>
