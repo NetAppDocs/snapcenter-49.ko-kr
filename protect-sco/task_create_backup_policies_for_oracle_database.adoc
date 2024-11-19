@@ -107,7 +107,7 @@ Delete archive logs older than * 을 선택한 다음 일 및 시간 내에 삭�
 
 |===
 +
-image:../media/sco_backuppolicy_prunning.gif[""]
+image:../media/sco_backuppolicy_prunning.gif["백업 정책을 제거합니다"]
 
 
 

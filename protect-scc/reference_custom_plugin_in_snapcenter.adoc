@@ -203,7 +203,7 @@ cmdlet 참조 정보를 참조하십시오.
 
 
 
-https://library.netapp.com/ecm/ecm_download_file/ECMLP2886205["SnapCenter 소프트웨어 cmdlet 참조 가이드"^].
+https://docs.netapp.com/us-en/snapcenter-cmdlets-49/index.html["SnapCenter 소프트웨어 cmdlet 참조 가이드"^]..
 
 
 

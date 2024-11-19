@@ -84,7 +84,7 @@ WAFL 정합성 보장 지점을 강제로 사용하지 않으려면 이 옵션�
 
 |===
 +
-image:../media/application_settings.gif[""]
+image:../media/application_settings.gif["응용 프로그램 설정"]
 
 .. 스크립트 * 화살표를 클릭하고 일시 중지, 스냅샷 복사 및 정지 해제 작업에 대한 사전 및 사후 명령을 입력합니다. 장애 발생 시 종료하기 전에 실행할 사전 명령을 입력할 수도 있습니다.
 .. 사용자 지정 구성 * 화살표를 클릭하고 이 리소스를 사용하는 모든 데이터 보호 작업에 필요한 사용자 지정 키 값 쌍을 입력합니다.
@@ -199,12 +199,12 @@ SnapCenter를 사용하여 스토리지 레벨의 스냅샷 복사본을 생성�
 .. 드롭다운 목록에서 하나 이상의 정책을 선택합니다.
 +
 
-NOTE: * 를 클릭하여 정책을 생성할 수도 있습니다image:../media/add_policy_from_resourcegroup.gif[""]*.
+NOTE: 을 클릭하여 정책을 만들 수도 image:../media/add_policy_from_resourcegroup.gif["리소스 그룹에서 정책을 추가합니다"]있습니다.
 
 +
 선택한 정책에 대한 스케줄 구성 섹션에 정책이 나열됩니다.
 
-.. Configure Schedules 열에서 * 를 클릭합니다image:../media/add_policy_from_resourcegroup.gif[""]구성할 정책에 대해 * 를 선택합니다.
+.. Configure Schedules 열에서 구성할 정책을 클릭합니다image:../media/add_policy_from_resourcegroup.gif["리소스 그룹에서 정책을 추가합니다"].
 .. policy_policy_name_에 대한 일정 추가 대화 상자에서 일정을 구성한 다음 * 확인 * 을 클릭합니다.
 +
 여기서 policy_name은 선택한 정책의 이름입니다.

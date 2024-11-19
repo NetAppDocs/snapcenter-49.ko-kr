@@ -20,7 +20,7 @@ Oracle DBVERIFY 유틸리티를 사용하여 백업을 확인하려면 ASM 디�
 
 다음 그림에서는 데이터베이스 리소스, 리소스 그룹 및 정책 간의 관계를 보여 줍니다.
 
-image::../media/sco_resourcegroup_policy.gif[SCO 리소스 그룹 정책입니다]
+image::../media/sco_resourcegroup_policy.gif[리소스 그룹 정책입니다]
 
 .단계
 . 왼쪽 탐색 창에서 * 리소스 * 를 선택하고 목록에서 해당 플러그인을 선택합니다.
