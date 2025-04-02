@@ -137,4 +137,4 @@ DR 백업이 저장되는 타겟 경로를 제공해야 합니다.
 
 |===
 .관련 정보
-를 참조하십시오 link:https://www.youtube.com/watch?v=Nbr_wm9Cnd4&list=PLdXI3bZJEw7nofM6lN44eOe4aOSoryckg["재해 복구 API"^] 비디오.
+link:https://www.youtube.com/watch?v=_8NG-tTGy8k&list=PLdXI3bZJEw7nofM6lN44eOe4aOSoryckg["재해 복구 API"^]비디오를 참조하십시오.

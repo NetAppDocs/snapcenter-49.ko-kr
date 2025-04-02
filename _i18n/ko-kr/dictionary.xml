@@ -37,7 +37,6 @@
   <block id="9f2c74676fb5b339a2fd4a0ccd75bd1e" category="list-text">DR 백업에서 SnapCenter Plug-in for SQL Server 폴더에서 Windows 및 SQL 일정을 가져옵니다.</block>
   <block id="30f60d67f457bb040dffde52197a54da" category="paragraph-title">관련 정보</block>
   <block id="27e7993c4841ae5fd670cdd945ccb96d" category="inline-link-macro">재해 복구 API</block>
-  <block id="ab9238ca6f628634f6f6f2cf63502cdb" category="paragraph">를 참조하십시오 <block ref="44de5c9fafab2e4e76e19e3717abc2e2" category="inline-link-macro-rx"></block> 비디오.</block>
   <block id="d2323db6aa3f6333b1375db7f025bd4e" category="summary">PowerShell cmdlet을 사용하여 SQL Server 데이터베이스 또는 Windows 파일 시스템을 백업할 수 있습니다. 여기에는 SQL Server 데이터베이스 또는 Windows 파일 시스템 백업에는 SnapCenter Server와의 연결 설정, SQL Server 데이터베이스 인스턴스 또는 Windows 파일 시스템 검색, 정책 추가, 백업 리소스 그룹 생성, 백업 및 백업 확인이 포함됩니다.</block>
   <block id="c90de0347e94ade70c96034e2ffca3ba" category="list-text">PowerShell cmdlet을 실행하려면 PowerShell 환경을 준비해야 합니다.</block>
   <block id="38d7f66964588305ed5bee44db007183" category="list-text">스토리지 시스템 접속을 추가하고 자격 증명을 생성해야 합니다.</block>
@@ -3016,7 +3015,6 @@ SMBR 사용 방법에 대한 자세한 내용은 을 참조하십시오<block re
   <block id="f367d650e57088caf7b808e01235016d" category="inline-link">SnapCenter를 사용하여 SMBR의 보조 스토리지에서 복원하는 방법</block>
   <block id="41b4c689a8b0e3ba8bfecb2a1e608e46" category="list-text"><block ref="41b4c689a8b0e3ba8bfecb2a1e608e46" category="inline-link-rx"></block></block>
   <block id="f004280f6db6ea5f9302c9851388d751" category="inline-link">SMBR을 사용하여 SnapVault에서 Microsoft Exchange Mail 복구</block>
-  <block id="1b0fb59a5bc951f7dc82cb43fe362145" category="list-text"><block ref="00a76af185a73b84e54e96058031aef5" category="inline-link-rx"></block></block>
   <block id="a60fa87356b70c5ce00706b76533d56c" category="summary">SnapCenter 사용자 인터페이스 내에서 Exchange용 플러그인을 설치해야 합니다. 그러나 어떤 이유로 인해 Windows 명령줄에서 자동 모드로 Exchange용 플러그인 설치 프로그램을 실행할 수 없습니다.</block>
   <block id="d09d97061d337ca456268467edcaf423" category="doc">명령줄에서 Exchange용 SnapCenter 플러그인을 자동으로 설치합니다</block>
   <block id="cd61155a270b0e3cba1a35778af0b9ce" category="list-text">Microsoft Exchange Server 리소스를 백업해야 합니다.</block>
@@ -8711,4 +8709,6 @@ AD FS SSO 페이지에서 사용자 이름 텍스트 상자에 사용자 이름 
   <block id="df572e132ba2f886e42786dc14efa7eb" category="paragraph">cmdlet과 함께 사용할 수 있는 매개 변수와 이에 대한 설명은 running_get-Help command_name_에서 확인할 수 있습니다. 또는 를 참조할 수도<block ref="0f4700d6d1275866f1a52a4d6a58d871" category="inline-link-rx"></block>있습니다.</block>
   <block id="86e30ad0a02c8fe2c3f0a07c63314b32" category="image-alt">SnapCenter 워크플로를 업그레이드합니다</block>
   <block id="d127c7070231e882bd97e8f2760d0a4f" category="sidebar">SnapCenter 소프트웨어 설명서</block>
+  <block id="c23d56866a5b11fd0d8dc189fcf21298" category="list-text"><block ref="341e3fddad4b27511133b6917a75bb8a" category="inline-link-rx"></block></block>
+  <block id="57cf9c4ee485623172a5c60cbee423a4" category="paragraph"><block ref="96716f545c5cf1a209bf10c1a798ce38" category="inline-link-macro-rx"></block>비디오를 참조하십시오.</block>
 </blocks>
