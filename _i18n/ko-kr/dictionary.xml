@@ -1118,7 +1118,6 @@ Windows 사용자에게 SQL Server에 대한 sysadmin 권한이 있는 경우 Wi
   <block id="953acf14bebe77c11e648186f3957214" category="list-text">SQL Server에 대한 sysadmin 권한이 있는 사용자가 있어야 합니다.</block>
   <block id="d165009fc919b7c43f63036983c47ae0" category="paragraph">Microsoft SQL Server용 SnapCenter 플러그인은 Microsoft VDI 프레임워크를 사용하므로 sysadmin 액세스가 필요합니다.</block>
   <block id="9221af74572734362746f0af9104d884" category="inline-link">Microsoft 지원 문서 2926557: SQL Server VDI 백업 및 복원 작업에는 sysadmin 권한이 필요합니다</block>
-  <block id="c081ea6f4c7f13224651487050d87831" category="paragraph"><block ref="c081ea6f4c7f13224651487050d87831" category="inline-link-rx"></block></block>
   <block id="6f4630c11483dcb4143ae30dadd50487" category="list-text">Windows 호스트에 플러그인을 설치할 때 기본 제공되지 않은 자격 증명을 지정하거나 사용자가 로컬 작업 그룹 사용자의 경우 호스트에서 UAC를 비활성화해야 합니다.</block>
   <block id="9c9a08a242e9f6311be9fa5bd945d582" category="list-text">SnapManager for Microsoft SQL Server가 설치된 경우 서비스 및 일정을 중지하거나 사용하지 않아야 합니다.</block>
   <block id="1931c747684bb6010ac638ae2be606b3" category="paragraph">백업 또는 클론 작업을 SnapCenter로 가져오려는 경우 SnapManager for Microsoft SQL Server를 제거하지 마십시오.</block>
@@ -6725,8 +6724,6 @@ PDB를 복제하는 자세한 단계는 를 참조하십시오 <block ref="8f4cb
   <block id="e729f7885b63addbf250ef2f33329efb" category="paragraph">플러그인이 서버 호스트 이름을 확인할 수 없는 경우 각 플러그인 호스트에 로그인하고 &lt;New IP&gt; SC_Server_Name 형식으로 새 IP에 대한 etc/host 항목을 추가합니다.
 예를 들면, 다음과 같습니다.<block ref="787ca03a3d14e5cce46cedf0bba7ac2b" prefix=" " category="inline-code"></block></block>
   <block id="421f836e09d607d08dad463276b0c52e" category="paragraph">서버 etc/host 항목은 복원되지 않습니다. DR 백업 폴더에서 수동으로 복원할 수 있습니다.</block>
-  <block id="cf6d86307a7decebf79e2175ef2bc96f" category="inline-link">SnapCenter를 다른 서버로 마이그레이션하는 방법</block>
-  <block id="40b06602d6310e9f595ec07f57b84775" category="admonition">F5 설치의 경우 복원 작업이 독립 실행형으로 수행되며 일련의 명령을 실행하여 F5를 다시 만들어야 합니다. 참조, 링크:<block ref="fb5c34144d693d79610d99e63e5e4e12" category="inline-link-rx"></block></block>
   <block id="d51a9a84121a4ca319f6f0b5d481f073" category="admonition">DR 복구 후 호스트가 추가되지만 플러그인을 수동으로 설치해야 합니다.</block>
   <block id="2dce035ff36be1c01663c842167acf77" category="admonition">Windows용 SnapCenter 플러그인을 설치하고 NetApp LUN을 서버 시스템에 연결한 경우에만 저장소 백업 일정이 복구됩니다.</block>
   <block id="90969e9b7bcd66fedcf0339db7d5e13e" category="admonition">DLL이 손상된 경우 SnapCenter 서버를 복구하거나 잘못된 설치를 수정할 수 있습니다.</block>
@@ -8711,4 +8708,5 @@ AD FS SSO 페이지에서 사용자 이름 텍스트 상자에 사용자 이름 
   <block id="d127c7070231e882bd97e8f2760d0a4f" category="sidebar">SnapCenter 소프트웨어 설명서</block>
   <block id="c23d56866a5b11fd0d8dc189fcf21298" category="list-text"><block ref="341e3fddad4b27511133b6917a75bb8a" category="inline-link-rx"></block></block>
   <block id="57cf9c4ee485623172a5c60cbee423a4" category="paragraph"><block ref="96716f545c5cf1a209bf10c1a798ce38" category="inline-link-macro-rx"></block>비디오를 참조하십시오.</block>
+  <block id="cb5d59c817a7392efa454c9c69508067" category="paragraph"><block ref="cb5d59c817a7392efa454c9c69508067" category="inline-link-rx"></block></block>
 </blocks>
