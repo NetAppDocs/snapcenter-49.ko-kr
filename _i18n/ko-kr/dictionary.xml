@@ -235,10 +235,7 @@
   <block id="50e1edb21a598f492619b01f99e77a4f" category="paragraph"><block ref="50e1edb21a598f492619b01f99e77a4f" category="inline-link-macro-rx"></block></block>
   <block id="9b51fddaf011faab92bf06f41ccf6d11" category="inline-link-macro">리소스 그룹을 만들고 SQL Server에 대한 정책을 연결합니다</block>
   <block id="35002a531b4134648eef7b46ee445a29" category="paragraph"><block ref="35002a531b4134648eef7b46ee445a29" category="inline-link-macro-rx"></block></block>
-  <block id="db9c751c1327ee48b470f3140421daf6" category="inline-link">TCP_TIMEOUT의 지연으로 인해 MySQL 연결 오류로 인해 백업 작업이 실패합니다</block>
-  <block id="0cd607c6c3ab41f1a5532b188171495c" category="paragraph"><block ref="0cd607c6c3ab41f1a5532b188171495c" category="inline-link-rx"></block></block>
   <block id="c473dc65af16d92c688e88cffad5b825" category="inline-link">Windows 스케줄러 오류로 인해 백업이 실패합니다</block>
-  <block id="ee70f525f7b0b70b3e7de9d8f872cbe4" category="paragraph"><block ref="ee70f525f7b0b70b3e7de9d8f872cbe4" category="inline-link-rx"></block></block>
   <block id="60b2a4dd687e5b16ce91fc08c7273c8b" category="summary">실행 중이거나 대기 중이거나 응답하지 않는 백업 작업을 취소할 수 있습니다. 백업 작업을 취소하면 생성된 백업이 SnapCenter 서버에 등록되지 않은 경우 SnapCenter 서버가 작업을 중지하고 스토리지에서 모든 스냅샷 복사본을 제거합니다. 백업이 이미 SnapCenter 서버에 등록되어 있는 경우 취소가 트리거된 후에도 이미 생성된 스냅샷 복사본이 롤백되지 않습니다.</block>
   <block id="6895fc6b34ff814dd8d20f8eb70439e5" category="doc">Microsoft SQL Server 백업 작업에 대한 SnapCenter 플러그인을 취소합니다</block>
   <block id="d15cddcc0f2911c53261943c85948fab" category="list-text">복원 작업을 취소하려면 SnapCenter 관리자 또는 작업 소유자로 로그인해야 합니다.</block>
@@ -401,7 +398,6 @@
   <block id="057a891f1c6d5f4aa0480b5f01c6bbc7" category="inline-link">MetroCluster 페일오버 후 SnapMirror 또는 SnapVault 관계를 감지할 수 없습니다</block>
   <block id="656764dc4fc9063500ad9c4607e32b3b" category="paragraph"><block ref="656764dc4fc9063500ad9c4607e32b3b" category="inline-link-rx"></block></block>
   <block id="f6e291f8da5e2bfb20622fac181e8aca" category="list-text">VMDK에서 애플리케이션 데이터를 백업하고 VMware vSphere용 SnapCenter 플러그인의 Java 힙 크기가 충분히 크지 않으면 백업이 실패할 수 있습니다. Java 힙 크기를 늘리려면 스크립트 파일 /opt/netapp/init_scripts/scvservice를 찾습니다. 이 스크립트에서 은 입니다<block ref="f751567fc5d2c300402db2d50de19910" prefix=" " category="inline-code"></block> Command SnapCenter VMware 플러그인 서비스를 시작합니다. 다음 명령을 업데이트합니다.<block ref="d66632e2d1ccce4227411d877d93c152" prefix=" " category="inline-code"></block>.</block>
-  <block id="393997bd3b722d52ae03ce598aa5cfec" category="paragraph"><block ref="393997bd3b722d52ae03ce598aa5cfec" category="inline-link-rx"></block></block>
   <block id="b97931d91e5908b44999bbc951cbee1f" category="summary">운영 또는 보조 스토리지의 백업 복사본에서 SQL Server 데이터베이스를 복원할 수 있습니다. 또한 데이터베이스를 원래 위치 외에 다른 대상에 복원할 수 있으므로 요구 사항을 지원하는 대상을 선택할 수 있습니다.</block>
   <block id="f773433327b73966f565bf778dba8fce" category="doc">복구 작업의 소스 및 대상</block>
   <block id="9f848691835222d0cd69e4d0dc96d02a" category="section-title">복구 작업의 소스</block>
@@ -1157,10 +1153,7 @@ Windows 사용자에게 SQL Server에 대한 sysadmin 권한이 있는 경우 Wi
   <block id="8a2bd81e968aaadb6ec10a1b58f541cc" category="inline-link-macro">SQL Server 데이터베이스, 인스턴스 또는 가용성 그룹을 백업합니다</block>
   <block id="38c78702a48e457f5ef291281168432e" category="paragraph"><block ref="38c78702a48e457f5ef291281168432e" category="inline-link-macro-rx"></block></block>
   <block id="f9db2c2c51ac713541e90ff79219156d" category="paragraph"><block ref="f9db2c2c51ac713541e90ff79219156d" category="inline-link-macro-rx"></block></block>
-  <block id="68f8e37f5b3d7c3c6c34a481b33a736f" category="inline-link">클론 작업이 실패하거나 기본 TCP_TIMEOUT 값으로 완료하는 데 시간이 더 오래 걸릴 수 있습니다</block>
-  <block id="f7e7f0dd9d36aec3d609775de2dbbd0b" category="paragraph"><block ref="f7e7f0dd9d36aec3d609775de2dbbd0b" category="inline-link-rx"></block></block>
   <block id="1e9ab426973a56020f8d1db85cb07f06" category="inline-link">장애 조치 클러스터 인스턴스 데이터베이스 클론에 장애가 발생합니다</block>
-  <block id="2df5362c7aa8c12a0dd2f1b211cdf61d" category="paragraph"><block ref="2df5362c7aa8c12a0dd2f1b211cdf61d" category="inline-link-rx"></block></block>
   <block id="98d00f0950d49399aca5b7e5b8865719" category="summary">Microsoft SQL Server용 SnapCenter 플러그인에는 최신 복원 작업을 수행하기 위한 트랜잭션 로그 백업이 필요합니다. 이 작업은 데이터베이스를 두 개의 전체 백업 사이의 시간으로 복원합니다.</block>
   <block id="fdc4a4ab9ed4ec8a0e816124044ffbb2" category="doc">소스 스토리지 시스템에서 트랜잭션 로그 백업을 유지하는 데 걸리는 시간</block>
   <block id="fd97a5c736cbe90079f5f9ad13506469" category="paragraph">예를 들어 SQL Server용 플러그인이 오전 8시에 전체 백업을 수행하는 경우 또한 오후 5시에 최신 트랜잭션 로그 백업을 사용하여 오전 8시 사이에 언제든지 데이터베이스를 복원할 수 있습니다 오후 5시까지 운영됩니다 트랜잭션 로그를 사용할 수 없는 경우 SQL Server용 플러그인은 시점 복원 작업만 수행할 수 있습니다. 그러면 SQL Server용 플러그인이 전체 백업을 완료한 시점으로 데이터베이스를 복원합니다.</block>
@@ -1172,7 +1165,6 @@ Windows 사용자에게 SQL Server에 대한 sysadmin 권한이 있는 경우 Wi
   <block id="70124670f70878681ab7bb78e2860796" category="image-alt">클론 워크플로우 다이어그램</block>
   <block id="a121a292ca8a39c5591cdcc69d0f0ff8" category="paragraph"><block ref="a121a292ca8a39c5591cdcc69d0f0ff8" category="inline-link-macro-rx"></block></block>
   <block id="b5fb765366530fd4f75c7c5c651544bd" category="paragraph"><block ref="b5fb765366530fd4f75c7c5c651544bd" category="inline-link-macro-rx"></block></block>
-  <block id="5f2b3d8994098e5cded686a40b8bb7c9" category="paragraph"><block ref="5f2b3d8994098e5cded686a40b8bb7c9" category="inline-link-macro-rx"></block></block>
   <block id="39f61b5119a8f1055ebde041f182fd5c" category="summary">Windows Server 2012 이상을 사용하면 관리되는 도메인 계정에서 자동화된 서비스 계정 암호 관리를 제공하는 그룹 GMSA\(Managed Service Account)를 만들 수 있습니다.</block>
   <block id="c6750b3c76b6abfa242d19dc98ef1082" category="doc">Windows Server 2012 이상에서 GMSA를 구성합니다</block>
   <block id="b3c3961c44cb62a9ae4273719a69e251" category="paragraph">Windows Server 2012 이상을 사용하면 관리되는 도메인 계정에서 자동화된 서비스 계정 암호 관리를 제공하는 그룹 GMSA(Managed Service Account)를 만들 수 있습니다.</block>
@@ -1221,7 +1213,6 @@ Windows 사용자에게 SQL Server에 대한 sysadmin 권한이 있는 경우 Wi
   <block id="95d04783b89b5d5f8a4c905e6a139950" category="paragraph">배포에 대한 자세한 내용은 을 참조하십시오<block ref="09fdd78e4c4f2997a9baa6b6e4423d52" category="inline-link-rx"></block>.</block>
   <block id="0a43bd1f35095f6ca081444f65372381" category="section-title">CA 인증서를 배포합니다</block>
   <block id="c9abc3786b4bb68c9d780c7e265731ff" category="inline-link">SSL 인증서를 생성하거나 가져옵니다</block>
-  <block id="77e6d176ef9b9d439f75a9636390005d" category="paragraph">VMware vSphere용 SnapCenter 플러그인을 사용하여 CA 인증서를 구성하려면 를 참조하십시오<block ref="1b5e247395791063ff5d33fa4a1ba4ec" category="inline-link-rx"></block>.</block>
   <block id="3228309100966454e78a162d4ba9bd75" category="section-title">CRL 파일을 구성합니다</block>
   <block id="456dce50d13fcf7c2c4881e39c114254" category="paragraph">VMware vSphere용 SnapCenter 플러그인은 사전 구성된 디렉토리에서 CRL 파일을 찾습니다. VMware vSphere용 SnapCenter 플러그인의 기본 CRL 파일 디렉토리는 _/opt/netapp/config/CRL_ 입니다.</block>
   <block id="1b782c06b199c89589ed8bcf1a6ca9ab" category="paragraph">이 디렉터리에 둘 이상의 CRL 파일을 배치할 수 있습니다. 들어오는 인증서는 각 CRL에 대해 확인됩니다.</block>
@@ -7013,9 +7004,6 @@ SnapCenter 사용자 인터페이스에서 * 모니터 * &gt; * 로그 * &gt; * 
   <block id="b88dbedd8fcea13adf629d85780a25e4" category="list-text">Windows용 플러그인은 Microsoft 클러스터의 가상 시스템에서 MPIO를 지원하지 않습니다.</block>
   <block id="5010ac065b072d3a5a66d4913af22358" category="section-title">공유 FC RDM LUN을 생성합니다</block>
   <block id="10680a7aa79949d8b454b29a782cc64a" category="paragraph">FC RDM LUN을 사용하여 Microsoft 클러스터의 노드 간에 스토리지를 공유하려면 먼저 공유 쿼럼 디스크와 공유 스토리지 디스크를 생성한 다음 클러스터의 두 가상 머신에 추가해야 합니다.</block>
-  <block id="cbdb6828febec04786f22df9a1ccc748" category="inline-link">물리적 호스트에서 가상 시스템을 클러스터링합니다</block>
-  <block id="343e62dffb88999e9c503088341e1fc0" category="paragraph">Windows용 플러그인을 사용하여 공유 디스크가 생성되지 않습니다. 공유 LUN을 생성한 다음 클러스터의 각 가상 머신에 추가해야 합니다.
-자세한 내용은 을 참조하십시오<block ref="4339506e2feb8115940eea5a6e9ba248" category="inline-link-rx"></block>.</block>
   <block id="c44898f41e877f5863f509561f82e262" category="summary">Microsoft NLB(네트워크 로드 밸런싱)를 구성하여 SnapCenter 고가용성을 설정할 수 있습니다.</block>
   <block id="2d5db85f748f26999514af33f7603cc0" category="doc">Microsoft 네트워크 로드 밸런서를 수동으로 구성합니다</block>
   <block id="5b226c362b407740af9b9e11ba12b385" category="paragraph">Microsoft NLB(네트워크 로드 밸런싱)를 구성하여 SnapCenter 고가용성을 설정할 수 있습니다. SnapCenter 4.2에서는 고가용성을 위해 SnapCenter 설치 외부에서 NLB를 수동으로 구성해야 합니다.</block>
@@ -7622,9 +7610,7 @@ SnapCenter 사용자 인터페이스에서 * 모니터 * &gt; * 로그 * &gt; * 
   <block id="ac91c641781bd7c7379113e123abc706" category="doc">인증서 기반 인증을 사용합니다</block>
   <block id="2deb2b431122c2428813248c5cc7e3cf" category="paragraph">SnapCenter 서버 및 Windows 플러그인 호스트에 대한 인증서 기반 인증을 활성화하려면 다음 PowerShell cmdlet을 실행합니다.  Linux 플러그인 호스트의 경우 양방향 SSL을 활성화하면 인증서 기반 인증이 활성화됩니다.</block>
   <block id="012d451c2966c8058914f66afd3ff9be" category="list-text">클라이언트 인증서 기반 인증을 사용하려면 다음을 따르십시오.</block>
-  <block id="c7414a7d4890863a34509bebe1bd9225" category="paragraph"><block ref="a578dd94961bb2b0ce287d29a112740b" prefix="" category="inline-code"></block><block ref="e685e5103f8306754d61ec1a0da15686" prefix=" " category="inline-code"></block><block ref="a71cdd4660400fab236be52b25300411" prefix=" " category="inline-code"></block></block>
   <block id="8b5db05d124326542535790d2a1a0411" category="list-text">클라이언트 인증서 기반 인증을 사용하지 않도록 설정하려면 다음을 따르십시오.</block>
-  <block id="b5cfca9930b60b6f87f38ad0e8d31765" category="paragraph"><block ref="ee29fb805334372351c3e459eaf40ac3" prefix="" category="inline-code"></block><block ref="e685e5103f8306754d61ec1a0da15686" prefix=" " category="inline-code"></block><block ref="b1b73520f4b4ea4d2583cc59029bbe0d" prefix=" " category="inline-code"></block></block>
   <block id="5fd3d0b8e71c4f64cfbad31e3fde1863" category="summary">SnapCenter 서버를 설치하기 전에 공간 및 크기 조정 요구 사항을 숙지해야 합니다. 사용 가능한 시스템 및 보안 업데이트도 적용해야 합니다.</block>
   <block id="18cd7192921dd5ac27a1a7c5ef795c20" category="doc">요구사항을 충족해야 합니다</block>
   <block id="3dbe205a1db3f8f677f2e971edc8976d" category="paragraph">운영 체제의 영어, 독일어, 일본어 및 중국어 간체 버전만 지원됩니다.</block>
@@ -8709,4 +8695,13 @@ AD FS SSO 페이지에서 사용자 이름 텍스트 상자에 사용자 이름 
   <block id="57cf9c4ee485623172a5c60cbee423a4" category="paragraph"><block ref="96716f545c5cf1a209bf10c1a798ce38" category="inline-link-macro-rx"></block>비디오를 참조하십시오.</block>
   <block id="cb5d59c817a7392efa454c9c69508067" category="paragraph"><block ref="cb5d59c817a7392efa454c9c69508067" category="inline-link-rx"></block></block>
   <block id="ea1c96f839915f73d25b910bbc92b734" category="list-text">NetApp 백업 및 복구 통합을 사용하여 ONTAP FAS, AFF 또는 ASA 기본 및 보조 시스템에 있는 데이터를 클라우드의 개체 및 아카이브 스토리지로 보호합니다.</block>
+  <block id="92f7e9adcc0061bde4c2abd78f00e01e" category="paragraph">SnapCenter Plug-in for VMware vSphere에서 CA 인증서를 구성하려면 <block ref="e0ef04da7ad7ee6e29cb49ed5497582e" category="inline-link-rx"></block>를 참조하십시오.</block>
+  <block id="1e70ac4737c2e839c6fd901789e3bafb" category="paragraph">공유 디스크는 Plug-in for Windows를 사용하여 생성되지 않습니다. 공유 LUN을 생성한 다음 클러스터의 각 가상 머신에 추가해야 합니다.</block>
+  <block id="ae0aa1a81eb18e69d5fc662eaee0efd5" category="inline-link">Broadcom 기술 문서</block>
+  <block id="e3b8e6a8b23425a59add498ed0e47659" category="paragraph"><block ref="94f03a61d7283013b50d8cc8e88c9fd8" category="inline-link-rx"></block>를 참조하여 물리적 호스트에 걸쳐 가상 머신을 클러스터링하고 Microsoft 클러스터용 공유 FC RDM LUN을 생성하는 방법에 대한 문서를 검색하십시오.</block>
+  <block id="0ff275ffe02e672fcd7c5215c9cbcfb6" category="paragraph"><block ref="a578dd94961bb2b0ce287d29a112740b" prefix="" category="inline-code"></block><block ref="e685e5103f8306754d61ec1a0da15686" prefix=" " category="inline-code"></block><block ref="0897acf49c7c1ea9f76efe59187aa046" prefix=" " category="inline-code"></block></block>
+  <block id="11428fc511268a2c63fa0e7ebcb2530d" category="paragraph"><block ref="ee29fb805334372351c3e459eaf40ac3" prefix="" category="inline-code"></block><block ref="e685e5103f8306754d61ec1a0da15686" prefix=" " category="inline-code"></block><block ref="0897acf49c7c1ea9f76efe59187aa046" prefix=" " category="inline-code"></block></block>
+  <block id="fb322b1c90de9bc9209933a55dc7c3a1" category="paragraph"><block ref="fb322b1c90de9bc9209933a55dc7c3a1" category="inline-link-rx"></block></block>
+  <block id="76d78c694f90915981830809ea4ed0ea" category="paragraph"><block ref="76d78c694f90915981830809ea4ed0ea" category="inline-link-rx"></block></block>
+  <block id="654bb6446b6bf43b65f5a763bbc17afe" category="paragraph"><block ref="654bb6446b6bf43b65f5a763bbc17afe" category="inline-link-rx"></block></block>
 </blocks>
